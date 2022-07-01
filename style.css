@@ -1,0 +1,22 @@
+body {
+    background-color: orange;
+}
+h1 {
+   font-size: 44px;
+   text-align: center;
+   text-shadow: 1px 1px #efefef;
+}
+
+.placeholder {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
+    background-color: #efefef;
+    }
+
+p{
+    font-size: 24px;
+    border-style: groove;
+    border-color: #efefef;
+}
