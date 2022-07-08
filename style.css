@@ -1,22 +1,35 @@
 body {
-    background-color: orange;
+    background-image: url("/madlib/img/oriental-tiles.png");
 }
 h1 {
-   font-size: 44px;
+   font-size: 50px;
+   color: silver;
    text-align: center;
-   text-shadow: 1px 1px #efefef;
+   text-shadow: 1px 1px #000000;
+}
+h2 {
+    text-align: center;
+    color: silver;
 }
 
 .placeholder {
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    justify-content: center;
     background-color: #efefef;
+    margin: 0 auto;
     }
+.list{
+    padding: 0;
+}
 
 p{
+    background-color: rgba(240, 240, 240, 75%);
     font-size: 24px;
+    color: rgb(0, 0, 0);
     border-style: groove;
     border-color: #efefef;
+    max-width: 75%;
+    margin: 0 auto;
 }
+
