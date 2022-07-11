@@ -3,22 +3,27 @@ body {
 }
 h1 {
    font-size: 50px;
-   color: silver;
+   color: rgb(255, 255, 255);
    text-align: center;
-   text-shadow: 1px 1px #ffffff;
+   text-shadow: 2px 2px #dddddd;
    
 }
 h2 {
-    background-color: rgba(240, 240, 240, 80%);
+    
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    color: rgb(0, 0, 0);
-    border-color: #efefef;
+    color: rgb(255, 255, 255);
     margin-bottom: 30px;
     position: static;
     white-space: nowrap;
 
+}
+
+input::placeholder {
+    font-weight: bold;
+    opacity: .5;
+    color: navy;
 }
 
 .placeholder {
@@ -31,6 +36,7 @@ h2 {
     border-style: solid;
     border-color: #444444;
     font-size: large;
+    color: navy;
     }
 .list{
     padding: 0;
@@ -39,7 +45,7 @@ h2 {
 p{
     background-color: rgba(240, 240, 240, 80%);
     font-size: 28px;
-    color: rgb(0, 0, 0);
+    color: navy;
     max-width: 75%;
     text-align: center;
     margin: 0 auto;
