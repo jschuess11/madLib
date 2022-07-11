@@ -5,11 +5,20 @@ h1 {
    font-size: 50px;
    color: silver;
    text-align: center;
-   text-shadow: 1px 1px #000000;
+   text-shadow: 1px 1px #ffffff;
+   
 }
 h2 {
+    background-color: rgba(240, 240, 240, 80%);
+    width: 80%;
+    margin: 0 auto;
     text-align: center;
-    color: silver;
+    color: rgb(0, 0, 0);
+    border-color: #efefef;
+    margin-bottom: 30px;
+    position: static;
+    white-space: nowrap;
+
 }
 
 .placeholder {
@@ -18,18 +27,22 @@ h2 {
     list-style-type: none;
     background-color: #efefef;
     margin: 0 auto;
+    margin-bottom: 2px;
+    border-style: solid;
+    border-color: #444444;
+    font-size: large;
     }
 .list{
     padding: 0;
 }
 
 p{
-    background-color: rgba(240, 240, 240, 75%);
-    font-size: 24px;
+    background-color: rgba(240, 240, 240, 80%);
+    font-size: 28px;
     color: rgb(0, 0, 0);
-    border-style: groove;
-    border-color: #efefef;
     max-width: 75%;
+    text-align: center;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
