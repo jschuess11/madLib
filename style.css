@@ -52,3 +52,17 @@ p{
     margin-top: 30px;
 }
 
+.submit {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    background-color: #efefef;
+    margin: 0 auto;
+    margin-bottom: 2px;
+    border-style: solid;
+    border-color: #444444;
+    font-size: large;
+    color: navy;
+}
+
+
